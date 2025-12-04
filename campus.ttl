@@ -1,0 +1,120 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix : <#> .
+
+:05.20 rdfs:label "KollegiengebÃ¤ude am Kronenplatz" .
+:05.20 :address "Kaiserstr. 89 - 93, 76131 Karlsruhe" .
+:05.20 :faculty "FakultÃ¤t fÃ¼r Wirtschaftswissenschaften" .
+:05.20 :haslecturehall false .
+:05.20 geo:lat 49.009121 .
+:05.20 geo:long 8.409616 .
+
+:20.30 rdfs:label "KollegiengebÃ¤ude Mathematik" .
+:20.30 :address "EnglerstraÃŸe 2, 76131 Karlsruhe" .
+:20.30 :faculty "FakultÃ¤t fÃ¼r Mathematik, FakultÃ¤t fÃ¼r Geistes- und Sozialwissenschaften" .
+:20.30 :haslecturehall false .
+:20.30 geo:lat 49.011032 .
+:20.30 geo:long 8.409069 .
+
+:20.40 rdfs:label "Architektur" .
+:20.40 :address "EnglerstraÃŸe 7, 76131 Karlsruhe" .
+:20.40 :faculty "FakultÃ¤t fÃ¼r Architektur" .
+:20.40 :haslecturehall true .
+:20.40 geo:lat 49.010944 .
+:20.40 geo:long 8.411284 .
+
+:20.20 rdfs:label "Steinbuch Centre for Computing" .
+:20.20 :address "EngesserstraÃŸe 2, 76131 Karlsruhe" .
+:20.20 :faculty "FakultÃ¤t fÃ¼r Wirtschaftswissenschaften, FakultÃ¤t fÃ¼r Informatik" .
+:20.20 :haslecturehall false .
+:20.20 geo:lat 49.012412 .
+:20.20 geo:long 8.408820 .
+
+:10.23 rdfs:label "KollegiengebÃ¤ude Maschinenbau" .
+:10.23 :address "KaiserstraÃŸe 10, 76131 Karlsruhe" .
+:10.23 :faculty "FakultÃ¤t fÃ¼r Maschinenbau" .
+:10.23 :haslecturehall true .
+:10.23 geo:lat 49.009924 .
+:10.23 geo:long 8.412821 .
+
+:30.95 rdfs:label "HÃ¶rsaalgebÃ¤ude am Forum - Audimax" .
+:30.95 :address "StraÃŸe am Forum 1, 76131 Karlsruhe" .
+:30.95 :haslecturehall true .
+:30.95 geo:lat 49.012719 .
+:30.95 geo:long 8.415840 .
+
+:50.34 rdfs:label "Informatik-HauptgebÃ¤ude" .
+:50.34 :address "Am Fasanengarten 5, 76131 Karlsruhe" .
+:50.34 :faculty "FakultÃ¤t fÃ¼r Informatik" .
+:50.34 :haslecturehall true .
+:50.34 geo:lat 49.013848 .
+:50.34 geo:long 8.419531 .
+
+:50.35 rdfs:label "HÃ¶rsaal am Fasanengarten" .
+:50.35 :address "Gotthard-Franz-StraÃŸe 7, 76131 Karlsruhe" .
+:50.35 :haslecturehall true .
+:50.35 geo:lat 49.014721 .
+:50.35 geo:long 8.420438 .
+
+:50.36 rdfs:label "Hallen und BÃ¼rogebÃ¤ude wbk" .
+:50.36 :address "Gotthard-Franz-StraÃŸe 5, 76131 Karlsruhe" .
+:50.36 :faculty "wbk Institut fÃ¼r Produktionstechnik" .
+:50.36 :haslecturehall false .
+:50.36 geo:lat 49.014701 .
+:50.36 geo:long 8.419726 .
+
+:50.10 rdfs:label "Labor- und GewÃ¤chshaus Botanisches Institut" .
+:50.10 :address "Am Fasanengarten 2, 76131 Karlsruhe" .
+:50.10 :faculty "FakultÃ¤t fÃ¼r Chemie- und Biowissenschaften" .
+:50.10 :haslecturehall false .
+:50.10 geo:lat 49.012935 .
+:50.10 geo:long 8.419029 .
+
+:10.91 rdfs:label "Altes MaschinenbaugebÃ¤ude" .
+:10.91 :address "Engelbert-Arnold-Str. 4, 76131 Karlsruhe" .
+:10.91 :faculty "FakultÃ¤t fÃ¼r Maschinenbau" .
+:10.91 :haslecturehall true .
+:10.91 geo:lat 49.009914 .
+:10.91 geo:long 8.412877 .
+
+:10.81 rdfs:label "Altes BauingenieurgebÃ¤ude" .
+:10.81 :address "Otto-Ammann-Platz 1, 76131 Karlsruhe" .
+:10.81 :faculty "FakultÃ¤t fÃ¼r Bauingenieur-, Geo- und Umweltwissenschaften" .
+:10.81 :haslecturehall true .
+:10.81 geo:lat 49.010127 .
+:10.81 geo:long 8.415543 .
+
+:30.43 rdfs:label "Chemie-Turm I" .
+:30.43 :address "Fritz-Haber-Weg 4, 76131 Karlsruhe" .
+:30.43 :faculty "FakultÃ¤t fÃ¼r Chemie- und Biowissenschaften" .
+:30.43 :haslecturehall false .
+:30.43 geo:lat 49.012390 .
+:30.43 geo:long 8.414424 .
+
+:30.41 rdfs:label "Chemie Hs I u. II" .
+:30.41 :address "Fritz-Haber-Weg 2 - 6, 76131 Karlsruhe" .
+:30.41 :faculty "FakultÃ¤t fÃ¼r Chemie- und Biowissenschaften" .
+:30.41 :haslecturehall true .
+:30.41 geo:lat 49.012613 .
+:30.41 geo:long 8.413874 .
+
+:30.21 rdfs:label "Gerthsen-HÃ¶rsaal" .
+:30.21 :address "Engesserstr. 9, 76131 Karlsruhe" .
+:30.21 :faculty "FakultÃ¤t fÃ¼r Physik" .
+:30.21 :haslecturehall true .
+:30.21 geo:lat 49.012432 .
+:30.21 geo:long 8.411575 .
+
+:30.22 rdfs:label "Gaede-HÃ¶rsaal" .
+:30.22 :address "Engesserstr. 9, 76131 Karlsruhe" .
+:30.22 :faculty "FakultÃ¤t fÃ¼r Physik" .
+:30.22 :haslecturehall true .
+:30.22 geo:lat 49.012538 .
+:30.22 geo:long 8.410443 .
+
+:11.40 rdfs:label "KollegiengebÃ¤ude am Ehrenhof" .
+:11.40 :address "Englerstr. 11, 76131 Karlsruhe" .
+:11.40 :faculty "FakultÃ¤t fÃ¼r Wirtschaftswissenschaften, FakultÃ¤t fÃ¼r Architektur" .
+:11.40 :haslecturehall true .
+:11.40 geo:lat 49.010191 .
+:11.40 geo:long 8.411859 .

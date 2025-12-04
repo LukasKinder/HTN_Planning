@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+		 xmlns:foaf="http://xmlns.com/foaf/0.1/">
+	 
+	<rdf:Description rdf:about="https://www.nico-assfalg.de/">
+		<rdfs:label>FOAF file of Nico Aßfalg</rdfs:label>
+		<foaf:maker rdf:resource="https://www.nico-assfalg.de/#na"/>
+		<foaf:topic rdf:resource="https://www.nico-assfalg.de/#na"/>
+	</rdf:Description>
+	
+	<foaf:Person rdf:about="https://www.nico-assfalg.de/#na">
+			<foaf:firstName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nico</foaf:firstName>
+			<foaf:lastName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aßfalg</foaf:lastName>
+			<foaf:dateOfBirth rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-09-15</foaf:dateOfBirth>
+			<foaf:homepage rdf:resource="https://www.nico-assfalg.de/"/>
+			<foaf:mbox rdf:resource="mailto:nico.assfalg@student.kit.edu"/>
+			<foaf:account>
+				<foaf:OnlineAccount>
+					<foaf:accountServiceHomepage rdf:resource="https://www.instagram.com/"/>
+					<foaf:accountName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nico.apunkt</foaf:accountName>
+				</foaf:OnlineAccount>
+			</foaf:account>
+			<foaf:account>
+				<foaf:OnlineAccount>
+					<foaf:accountServiceHomepage rdf:resource="https://www.xing.com/"/>
+					<foaf:accountName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nico Aßfalg</foaf:accountName>
+				</foaf:OnlineAccount>
+			</foaf:account>
+			<foaf:schoolHomepage rdf:resource="https://www.kit.edu"></foaf:schoolHomepage>
+			<foaf:img rdf:resource="https://www.xing.com/image/f_2_7_0af4e6b80_26253673_6/nico-a%C3%9Ffalg-foto.256x256.jpg"/>
+			<foaf:made rdf:resource="https://www.nico-assfalg.de/Clausura"/>
+			<foaf:made rdf:resource="https://github.com/nico1509/data-driven-workflows"/>
+	</foaf:Person>
+</rdf:RDF>
